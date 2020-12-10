@@ -18,6 +18,8 @@ class User {
 const user = new User("Kevin", { age: 21, address: new Address("1", "main") });
 console.log(user);
 
+/* -------------------------------------------------------------------------- */
+
 // NOTE Way One: Tranditional Way:
 // class Address {
 //   constructor(zip, street) {
@@ -62,6 +64,8 @@ console.log(user);
 //   .setAddress(new Address("1", "main"))
 //   .build();
 // console.log(user);
+
+/* -------------------------------------------------------------------------- */
 
 // NOTE without Design Pattern :
 // class Address {

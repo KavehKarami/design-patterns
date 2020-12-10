@@ -45,6 +45,8 @@ function printUser(id) {
   }
 }
 
+/* -------------------------------------------------------------------------- */
+
 // NOTE with out Design Pattern :
 // class User {
 //   constructor(id, name) {

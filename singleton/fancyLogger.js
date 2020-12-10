@@ -23,6 +23,8 @@ const logger = new FancyLogger();
 Object.freeze(logger);
 export default logger;
 
+/* -------------------------------------------------------------------------- */
+
 // NOTE without Design Pattern :
 // export default class FancyLogger {
 //   constructor() {
