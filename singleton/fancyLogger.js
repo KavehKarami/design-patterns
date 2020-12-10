@@ -19,6 +19,7 @@ class FancyLogger {
 }
 
 const logger = new FancyLogger();
+// to make sure that anybody can actually mess with this, we freeze it (change our instance)
 Object.freeze(logger);
 export default logger;
 
